@@ -84,7 +84,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //,----+----+----+----+----+----+----+----+----+----.
      ESC , NO , NO , NO , NO , NO ,LEFT,DOWN, UP ,RGHT,
   //|----+----+----+----+----+----+----+----+----+----|
-      NO , NO , NO , NO , NO ,    , NO ,SCLN,QUOT, DEL,
+      NO , NO , NO , NO , NO , NO , NO ,SCLN,QUOT, DEL,
   //|----+----+----+----+----+----+----+----+----+----|
       NO , NO , NO , NO ,    ,SPC ,HOME,PGDN,PGUP, END
   //`----+----+----+----+----+----+----+----+----+----'
@@ -104,7 +104,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //,----+----+----+----+----+----+----+----+----+----.
       F1 , F2 , F3 , F4 , F5 , F5 , F7 , F8 , F9 , F10,
   //|----+----+----+----+----+----+----+----+----+----|
-     CLKS,LNUM, NO , NO , NO ,    , GT , NO , F11, F12,
+     CLKS,LNUM, NO , NO , NO ,    , NO , NO , F11, F12,
   //|----+----+----+----+----+----+----+----+----+----|
      LCTL,LALT,LGUI, NO ,MRWD,MPLY,MFFD,_MUTE,_VOLDOWN,_VOLUP
   //`----+----+----+----+----+----+----+----+----+----'
@@ -114,7 +114,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //,----+----+----+----+----+----+----+----+----+----.
       GRV, NO , NO , NO , NO , NO , NO ,LBRC,RBRC,BSLS,
   //|----+----+----+----+----+----+----+----+----+----|
-     LSFT, NO , NO , NO ,    , NO , NO , NO ,COLN,QUOT,
+     LSFT, NO , NO , NO ,    , NO , NO ,SCLN,QUOT, DEL,
   //|----+----+----+----+----+----+----+----+----+----|
      LCTL,LALT,LGUI, NO , NO , NO , NO ,COMM, DOT,SLSH
   //`----+----+----+----+----+----+----+----+----+----'
